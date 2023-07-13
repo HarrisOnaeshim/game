@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Dosine' serif;
+}
+
+
+
+
+.container
+{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:100vh;
+    padding: 0 20px;
+}
+
+.logo
+{
+    font-size: 5em;
+    text-shadow: -2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white,
+    
+}
+
+
+.button
+{
+    background-color: blueviolet;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+.input
+{
+    width: 300px;
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+    margin: 30px;
+}
+#input-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#submit
+{
+    margin: left 150px;
+}
+
+h1{
+    font-size: larger;
+}
+
+
+#message{
+    display: none;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
